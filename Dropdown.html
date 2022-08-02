@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .drop{
+            position: relative;
+            display: inline-block;
+        }
+        .drop-content{
+            display: none;
+            position: absolute;
+            background-color: brown;
+            width: 200px;
+            padding: 20px;
+            z-index: 1;
+            text-decoration: none;
+        }
+        .drop:hover .drop-content{
+            display: block;
+        }
+        .drop-content ul {
+            list-style-type: none;
+        }
+        .drop-content a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .drop-content a:hover{
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="drop">
+        <span>Click here</span>
+        <div class="drop-content">
+          <ul>
+            <li><a href="Group Tour">Group Tour</a></li>
+            <li><a href="Speciality Tour">Speciality Tour</a></li>
+            <li><a href="Gallary">Gallary</a></li>
+            <li><a href="Clients">Clients</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="ContactUs">ContactUs</a></li>
+          </ul>
+        </div>
+    </div>
+</body>
+</html>
