@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("im.webp");
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+}
+.RV{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.RV li{
+    float: left;
+    margin-left: 122px;
+    padding: 0px;
+}
+.RV li a{
+    display: inline-block;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.RT img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 0px;
+    margin-left: 150px;
+}
+.RT{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(62, 196, 240,0.3);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px; 
+}
+.RT li{
+    float: left;
+    margin-left: 69px;
+    padding: 5px;
+}
+.RT li a{
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.RA img{
+    width: 400px;
+    height: auto;
+}
+.Ri{
+    float: left;
+}
+.Vr{
+    width: 50%;
+    height: 500%;
+    float: left;
+    position: absolute;
+    background-image: url("Du.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: rajat 9s infinite linear;
+}
+@keyframes rajat{
+    0%{background-image: url("Du.jpg");}
+    25%{background-image: url("Europe.jpg");}
+    50%{background-image: url("Delhi.jpg");}
+    75%{background-image: url("America.jpg");}
+}
+.RH{
+    width: 50%;
+    height: 500%;
+    position: absolute;
+    background-image: url("Du.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: vedika 9s infinite linear;
+}
+@keyframes vedika{
+    0%{background-image: url("Du.jpg");}
+    25%{background-image: url("Europe.jpg");}
+    50%{background-image: url("Delhi.jpg");}
+    75%{background-image: url("America.jpg");}
+}

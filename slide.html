@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 5%;
+            letter-spacing: 4px;
+            color: black;
+            font-style: italic;
+        }
+        .Rajat{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-image: url("Delhi.jpg");
+            background-position: center;
+            background-size: cover;
+            animation: rv 9s infinite linear;
+        }
+        @keyframes rv{
+            0%{background-image: url("Delhi.jpg");}
+            25%{background-image: url("Europe.jpg");}
+            50%{background-image: url("Du.jpg");}
+            75%{background-image: url("America.jpg");}
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Css Slideshow</h1>
+    <div class="Rajat">
+
+    </div>
+</body>
+</html>
+
