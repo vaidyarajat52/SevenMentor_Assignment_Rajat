@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <form>
+            <fieldset>
+                <label for="name">
+                    First name :- <input type="text" placeholder="Enter First name">
+                    Middle name :- <input type="text" placeholder="Enter Middle name">
+                    Last name :- <input type="text" placeholder="Enter Middle name">
+                </label><br><br>
+                <label for="email">
+                    Enter Email :- <input type="email" placeholder="Enter Email">
+                </label><br><br>
+                <label for="Gender">
+                    Enter Gender :-
+                    <input type="radio" name="Gender" value="male">Male
+                    <input type="radio" name="Gender" value="female">Female
+                    <input type="radio" name="Gender" value="other">Other
+                </label><br><br>
+                <label for="Addr">
+                    Enter Address :-
+                    <textarea name="Add" id="add" cols="10" rows="5" placeholder="Enter Address"></textarea>
+                </label><br><br>
+                <label>
+                    Travelsby :-
+                    <select name="Travel">
+                        <option value="Train"></option>
+                        <option value="Train">Train</option>
+                        <option value="Airoplane">Airoplane</option>
+                        <option value="bus">bus</option>
+                    </select>
+                </label><br><br>
+                 <label for="Phone">
+                    Enter Phone Number :- 
+                    <input type="tel" placeholder="0123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                 </label><br><br>
+                 
+                <label for="Check">
+                    <input type="checkbox" name="Check">I Accept Terms & Condition
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
