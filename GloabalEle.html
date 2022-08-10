@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Global Variabal</h1>
+    <script>
+        var x = 34 ;
+        function r(){
+            document.writeln(x)
+        }
+        function t(){
+            document.writeln(x)
+        }
+        r();
+        t();
+    </script>
+    <h1>Local Variabal</h1>
+    <script>
+        var x = 54
+        function a(){
+            var x = 45
+            document.writeln(x)
+        }
+        function f(){
+            document.writeln(x)
+        }
+        a();
+        f();
+    </script>
+</body>
+</html>

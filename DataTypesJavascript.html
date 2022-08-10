@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript String</h1>
+    <p id="id1"></p>
+     <p id="id2"></p>
+     <p id="id3"></p>
+     <p id="id4"></p>
+     <h1>Javascript numbers</h1>
+     <p id="id5"></p>
+     <h1>JavaScript Booleans</h1>
+     <p id="id6"></p>
+     <h1>JavaScript Undefined</h1>
+     <p id="id7"></p>
+     <h1>JavaScript Null</h1>
+     <p id="id8"></p>
+     <h1>JavaScript Array</h1>
+     <p id="id9"></p>
+     <h1>JavaScript Object</h1>
+     <p id="id0"></p>
+    <script>
+        let x = 16 + "Rajat";
+        document.getElementById("id1").innerHTML = x ;
+        let y =  "Rajat" + " Vaidya"
+        document.getElementById("id2").innerHTML = y ;
+        let z =  30 + 40
+        document.getElementById("id3").innerHTML = z ;
+        let o =  "30" + " 40"
+        document.getElementById("id4").innerHTML = o ;
+        let p = 45.00;
+        let q = 56;
+        let r = 45.67
+        document.getElementById("id5").innerHTML = p + "<br>" + q + "<br>" + r;
+        let a = 23 ;
+        let b = 23 ;
+        let c = 45 ;
+        document.getElementById("id6").innerHTML = (a == b) + "<br>" + (a == c)
+        let t ;
+        document.getElementById("id7").innerHTML = t + "<br>" + typeof t ;
+        let u = "";
+        document.getElementById("id8").innerHTML = "The value is: " + u + "<br>" + "The type is: " + typeof u ;
+        const name = ["Rajat" , "Supriya" , "Omkar" , "Aditi" , "Rohit" , "Mangesh"];
+        document.getElementById("id9").innerHTML = name ;
+        const person = { firstname:"Rajat " , lastname:"Vaidya" , age:24};
+        document.getElementById("id0").innerHTML = person.firstname + person.lastname + " Is " + person.age + " Year Old" ;
+
+    </script>
+</body> 
+</html>
